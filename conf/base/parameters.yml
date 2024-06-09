@@ -1,0 +1,13 @@
+table_names:
+  - agencias
+  - canales
+  - conceptos_diarios
+  - empresas
+  - estatus_reservaciones
+  - ingresos_diarios
+  - paises
+  - paquetes
+  - reservaciones
+  - resultados_mensuales
+  - segmentos_comp
+  - tipos_habitaciones

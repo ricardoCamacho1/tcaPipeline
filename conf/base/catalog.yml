@@ -1,0 +1,60 @@
+agencias:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/agencias.parquet
+
+canales:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/canales.parquet
+
+conceptos_diarios:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/conceptos_diarios.parquet
+
+empresas:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/empresas.parquet
+
+estatus_reservaciones:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/estatus_reservaciones.parquet
+
+ingresos_diarios:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/ingresos_diarios.parquet
+
+paises:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/paises.parquet
+
+paquetes:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/paquetes.parquet
+
+reservaciones:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/reservaciones.parquet
+
+segmentos_comp:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/segmentos_comp.parquet
+
+tipos_habitaciones:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/tipos_habitaciones.parquet
+
+reservaciones_dashboard:
+  type: pandas.ParquetDataset
+  filepath: data/02_dashboard/reservaciones_dashboard.parquet
+
+features_dashboard:
+  type: pandas.ParquetDataset
+  filepath: data/02_dashboard/features_dashboard.parquet
+
+features_model:
+  type: pandas.ParquetDataset
+  filepath: data/03_model/features_model.parquet
+
+model_data:
+  type: pickle.PickleDataset
+  filepath: data/03_model/model_data.pkl
+  backend: pickle
