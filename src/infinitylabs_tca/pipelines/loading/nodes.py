@@ -4,8 +4,8 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 def get_secret():
-    secret_name = "tcaDatabaseCredentials"  # Replace with your secret name
-    region_name = "us-east-1"  # Replace with your AWS region
+    secret_name = "your-secret-name"  # Replace with your secret name
+    region_name = "your-region"  # Replace with your AWS region
     # Create a Secrets Manager client
     client = boto3.client(
         service_name='secretsmanager',
